@@ -17,6 +17,12 @@ module.exports = {
         path: "./src/images/",
       },
     },
+    {
+      resolve: `gatsby-plugin-typescript`,
+      options: {
+        isTSX: true,
+      },
+    },
   ],
 
   siteMetadata: {
