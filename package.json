@@ -18,6 +18,7 @@
     "@emailjs/browser": "^3.6.2",
     "gatsby": "^4.17.2",
     "gatsby-plugin-image": "^2.17.0",
+    "gatsby-plugin-jss": "^4.17.0",
     "gatsby-plugin-sharp": "^4.17.0",
     "gatsby-source-filesystem": "^4.17.0",
     "gatsby-transformer-sharp": "^4.17.0",
