@@ -44,7 +44,7 @@ export default function Home({ location }: PageProps) {
 
   return (
     <Layout>
-      <Seo title="Home" description={description} pathname={pathname} />
+      <Seo title="Dev Essentials Course" description={description} pathname={pathname} />
 
       <h1>Dev Essentials Course</h1>
 

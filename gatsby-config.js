@@ -27,8 +27,8 @@ module.exports = {
   ],
 
   siteMetadata: {
-    title: "Michael Evans | Freelance Software Developer",
-    titleSuffix: " | Michael Evans | Freelance Software Engineer",
+    title: "Michael Evans | Developer Coach",
+    titleSuffix: " | Michael Evans | Developer Coach",
     description:
       "Michael Evans is a Software Engineer based in Berlin, Germany. With over 5 years of experience in the industry, he enjoys working across the full stack with technologies such as Ruby on Rails, React, Node and Typescript.",
     siteUrl: "https://michaelrevans.me",
