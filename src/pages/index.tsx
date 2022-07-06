@@ -167,7 +167,7 @@ export default function Home({ location }: PageProps) {
 
         <Faq
           question="How long should it take to complete?"
-          answer="There is around X hours of video content and each project should take between 1 and 3 hours to complete. However, there are no time limits or deadlines, and you can take as long as you need on each section. I suggest spending up to 6 weeks on the course and then using it as a long term resource for the future - there is plenty of content that will remain relevant well into your career as a developer"
+          answer="There is around 8 hours of video content and each project should take between 1 and 3 hours to complete. However, there are no time limits or deadlines, and you can take as long as you need on each section. I suggest spending up to 6 weeks on the course and then using it as a long term resource for the future - there is plenty of content that will remain relevant well into your career as a developer"
         />
         <br />
 
