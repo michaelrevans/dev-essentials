@@ -108,6 +108,10 @@ function Seo({ title, pathname, description = "" }: SeoProps) {
       name: "twitter:creator",
       content: site!.siteMetadata!.og!.twitterCreator,
     },
+    {
+      name: "robots",
+      content: "index,follow",
+    }
   ];
 
   return (

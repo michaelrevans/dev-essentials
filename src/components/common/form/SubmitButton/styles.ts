@@ -9,6 +9,9 @@ const styles = createUseStyles({
       top: 5,
       bottom: 5,
     },
+    backgroundColor: brand.colors.secondary,
+    color: brand.colors.text,
+    border: `1px solid ${brand.colors.text}`,
     height: 40,
     fontSize: brand.fonts.normal,
     borderRadius: 20,
@@ -17,6 +20,10 @@ const styles = createUseStyles({
       left: "auto",
       right: "auto",
     },
+
+    "&:hover": {
+      filter: "brightness(80%)",
+    }
   },
 });
 

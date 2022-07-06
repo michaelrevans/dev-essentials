@@ -1,4 +1,5 @@
 import { createUseStyles } from "react-jss";
+import { brand } from "./brand";
 import { mobile, tablet } from "./mixins";
 
 const touchScreenContainerStyles = {
@@ -22,13 +23,28 @@ const homeStyles = createUseStyles({
 
     [mobile]: touchScreenLeftColumnStyles,
     [tablet]: touchScreenLeftColumnStyles,
-
-    "& ul": {
-      paddingLeft: 18,
-    }
   },
   rightColumn: {
     flexBasis: "50%",
+  },
+
+  errorMessage: {
+    marginTop: 10,
+  },
+
+  submitButton: {
+    backgroundColor: brand.colors.secondary,
+    color: brand.colors.text,
+    border: "1px solid",
+    borderColor: brand.colors.text
+  },
+
+  teaser: {
+    marginTop: 50,
+  },
+
+  faqs: {
+    marginTop: 50,
   },
 });
 

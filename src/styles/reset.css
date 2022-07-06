@@ -80,7 +80,9 @@ mark,
 textarea,
 input,
 audio,
-video {
+video,
+summary,
+details {
   margin: 0;
   padding: 0;
   border: 0;
@@ -123,4 +125,7 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+b, strong {
+  font-weight: bold;
 }
