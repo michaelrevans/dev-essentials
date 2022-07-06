@@ -173,7 +173,9 @@ export default function Home({ location }: PageProps) {
 
         <Faq
           question="How long do I have access after I sign up?"
-          answer="You'll get unlimited, lifetime access to the videos and all resources in the course. You'll also get 3 months free access to the Dev essentials community" />
+          answer="You'll get unlimited, lifetime access to the videos and all resources in the course." />
+        {/* add this to the answer once the community is up and running */}
+        {/* You'll also get 3 months free access to the Dev essentials community */}
 
         <br />
         <Faq
