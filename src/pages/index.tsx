@@ -67,7 +67,7 @@ export default function Home({ location }: PageProps) {
     <Layout>
       <Seo title="Dev Essentials Course" description={description} pathname={pathname} />
 
-      <h1 id="sign-up">Dev Essentials Course</h1>
+      <h1 id="sign-up" className={classes.title}>Dev Essentials Course</h1>
 
       <div className={classes.container}>
         <div className={classes.leftColumn}>
@@ -126,7 +126,7 @@ export default function Home({ location }: PageProps) {
         <p>
           The course puts a huge focus on project-based learning. All the skills you gain will be introduced in video or written form and solidified and internalised by practical exercises.
         </p>
-        <br />
+        <br /><br />
         <p>
           Let's take a look at what you will learn:
         </p>
@@ -139,7 +139,7 @@ export default function Home({ location }: PageProps) {
           <li><strong>job search system</strong> - use the system I've created to find and apply for exactly the right jobs</li>
           <li><strong>BONUS: personal finance for developers</strong> - make your money work for you</li>
         </ul>
-        <br />
+        <br /><br />
         <p>Why take the course?</p>
         <ul>
           <li>you want to get a job as a professional software developer - I want to help you gain the skills and experience you'll need to get your first developer job - this course is aimed at getting you proficient with the fundamentals of being a developer, as well as the latest technologies that frontend developers used. If your ultimate goal is backend or full-stack development, this will give you a great foundation and set you up for success</li>
@@ -147,7 +147,7 @@ export default function Home({ location }: PageProps) {
           <li>self-paced yet efficient - go at your own pace, without wasting time learning things that won't help you find a developer job and perform it excellently</li>
           <li>money back guarantee - take the course for 30 days and if you're not satisfied, I'll give you a full time - no questions asked, no strings attached, no hard feelings</li>
         </ul>
-        <br />
+        <br /><br />
         <p>Why not take the course?</p>
         <ul>
           <li>if you want to be a mobile or desktop developer, a data scientist, a systems administrator or anything else that isn't focused on web development - this course is focused on the web, for other disciplines, you're probably better looking elsewhere</li>

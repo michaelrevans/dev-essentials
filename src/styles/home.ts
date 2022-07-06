@@ -11,6 +11,12 @@ const touchScreenLeftColumnStyles = {
 }
 
 const homeStyles = createUseStyles({
+  title: {
+    fontSize: 42,
+    textAlign: "center",
+    marginBottom: 50,
+  },
+
   container: {
     display: "flex",
 
@@ -40,11 +46,11 @@ const homeStyles = createUseStyles({
   },
 
   teaser: {
-    marginTop: 50,
+    marginTop: 100,
   },
 
   faqs: {
-    marginTop: 50,
+    marginTop: 100,
   },
 });
 
