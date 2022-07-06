@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SubmitButton from "../form/SubmitButton";
 import useStyles from "./styles";
 
 interface FaqProps {
@@ -21,6 +22,10 @@ const Faq = ({ question, answer }: FaqProps) => {
     {showAnswer &&
       <div className={classes.answer}>
         <p>{answer}</p>
+
+        <div className={classes.buttonContainer}>
+          <a href="#sign-up" className={classes.button}>Sign up now</a>
+        </div>
       </div>
     }
   </div>

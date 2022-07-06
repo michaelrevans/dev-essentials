@@ -1,7 +1,7 @@
 import React, { ButtonHTMLAttributes } from "react";
 import useStyles from "./styles";
 
-interface SubmitButtonProps extends ButtonHTMLAttributes<string> {
+interface SubmitButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
 }
 

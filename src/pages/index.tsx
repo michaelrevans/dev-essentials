@@ -67,7 +67,7 @@ export default function Home({ location }: PageProps) {
     <Layout>
       <Seo title="Dev Essentials Course" description={description} pathname={pathname} />
 
-      <h1>Dev Essentials Course</h1>
+      <h1 id="sign-up">Dev Essentials Course</h1>
 
       <div className={classes.container}>
         <div className={classes.leftColumn}>
@@ -85,7 +85,7 @@ export default function Home({ location }: PageProps) {
         </div>
 
         <div className={classes.rightColumn}>
-          <h2 id="sign-up">Sign up for early access</h2>
+          <h2>Sign up for early access</h2>
           <Form onSubmit={handleSubmit} action="">
             <FormGroup>
               <Label text="Name" htmlFor="name" />
